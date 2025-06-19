@@ -1,57 +1,50 @@
-  body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: rgb(27, 26, 26);
-    }
-
-    header {
-      background-color: #4CAF50; /* Verde suave */
-      color: white;
-      padding: 5px;
-    }
-
-    main {
-      background-color: #f0f0f0; /* Gris claro */
-      color: #333; /* Gris oscuro */
-      width: 400px;
-      margin: auto;
-      padding: 25px;
-      border-radius: 10px;
-    }
-
-    footer {
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px;
-    }
-
-    img {
-      width: 100%;
-      height: 150px;
-      border-radius: 50%;
-    }
-    div {
-  margin-top: 10px;
-  padding: 10px;
-  border-bottom: 1px solid #4CAF50;}
-  .posteo{
-    background-color:#b5e48c ;
-  }
-.anuncio{
-    background-color:#e63946 ;
+body{
+    font-family: sans-serif;
+    margin: auto;
+    max-width: 700px;
+    padding:0;
+    background-color: rgb(36, 36, 36);
+    color: rgb(235, 235, 222);
 }
-#foto-perfil{
-   border-radius: 50%;
-     width: 100px;
-      height: 100px;
+
+header{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 4, 4);
+    padding: 5px;
+} 
+main{
+    color: rgb(253, 253, 253);
+    background-color: rgb(255, 255, 255);
+     padding: 10px;
 }
-#nombre-perfil {
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif;
-  border-bottom: 1px solid black;
-  font-size: 20px;}
-  h2 {
-  text-align: center;
-  font-size: 30px;
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+     padding: 5px;
+}
+div{
+    padding: 10px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+a {
+  display: block;
+  background-color: #ff0000;   /* Color de fondo */
+  color: #000000;              /* Color del texto */
+  width: 50%;                  /* Ancho del botón */
+  margin: auto;                /* Centrado horizontal */
+  padding: 20px;               /* Espaciado interno */
+  border-radius: 10px;         /* Bordes redondeados */
+  font-size: 20px;             /* Tamaño de fuente */
+  text-align: center;          /* Centrar texto */
+  text-decoration: none;       /* Quitar subrayado */
+  font-weight: bold;           /* Texto en negrita */
+}
+a:hover {
+  background-color: #00ccaa;   /* Efecto al pasar el mouse */
+}
+img{
+  width: 100%;
 }
